@@ -32,7 +32,7 @@ export const Header = () => {
   ];
 
   return (
-    <header className="py-3 flex justify-between gap-2">
+    <header className="max-w-7xl p-3 mx-auto flex justify-between gap-2">
       <a href="/" className="shrink-0">
         <img src="/logo.svg" alt="logo" width={124} height={54} className="h-full" />
       </a>

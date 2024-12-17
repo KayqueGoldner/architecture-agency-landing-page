@@ -1,11 +1,15 @@
 import "./App.css";
+import { Hero } from "@/components/hero";
 import { Header } from "./components/header";
 
 function App() {
   return (
-    <div className="mx-auto w-full max-w-7xl px-3">
+    <>
       <Header />
-    </div>
+      <main>
+        <Hero />
+      </main>
+    </>
   )
 }
 
