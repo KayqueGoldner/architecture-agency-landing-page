@@ -1,7 +1,8 @@
 import "./App.css";
 import { Hero } from "@/components/hero";
-import { Header } from "./components/header";
+import { Header } from "@/components/header";
 import { About } from "@/components/about";
+import { Companies } from "@/components/companies";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <main>
         <Hero />
         <About />
+        <Companies />
       </main>
     </>
   )

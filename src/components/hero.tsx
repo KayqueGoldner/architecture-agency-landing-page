@@ -1,14 +1,18 @@
 import { HeroMarquee } from "@/components/hero-marquee"
 import { Button } from "@/components/ui/button"
+import { Highlight } from "@/components/hero-highlight";
 
 export const Hero = () => {
   return (
-    <section className="relative flex flex-col h-[640px]">
+    <section className="relative flex flex-col h-[600px] sm:h-[680px]">
       <div className="flex-1 relative z-10 w-full max-w-7xl px-3 pt-24 mx-auto">
-        <h1 className="max-w-2xl text-4xl sm:text-5xl md:text-6xl/tight text-white font-bold">
+        {/* <h1 className="max-w-2xl text-4xl sm:text-5xl md:text-6xl/tight text-white font-bold">
           We Transform Spaces into Experiences!
+        </h1> */}
+        <h1 className="max-w-2xl text-4xl/tight sm:text-5xl/snug md:text-6xl/snug text-white font-bold">
+          We Transform Spaces into <Highlight>Experiences!</Highlight>
         </h1>
-        <a href="#" className="block mt-10">
+        <a href="#" className="block mt-14">
           <Button className="w-40 h-12 text-lg">
             Contact us
           </Button>
